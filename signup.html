@@ -10,32 +10,39 @@
 	
 	<body>
 		<header>
-		<h1>Noted</h1>
 	
-		 
+	<a href="index.html" class="logo"><h1>Noted</h1></a>
+		
 		<nav>
-		<a href="index.html">Home</a>
+		 
 		<a href="index.html#blog">Blog</a>
 		<a href="contact.html">Contact</a>
 		</nav>
+		<div></div>
 					</header>
 
 			<section id="signup">
 				<h2>SIGN UP</h2>
 				<form>
 					<label for="name">Name</label>
-					<input name="name" type="text" id="name"><br><br>
+					<input name="name" type="text" id="name" required> 
 					
 					<label for="gender">Gender</label>
-					<label for="male">Male</label>
-					<input name="gender" type="radio" value="male" id="male">
-							<label for="female">Female</label>
-					<input name="gender" type="radio" value="female" id="female"><br><br>
-			
+					 <div class="radio-group">
+    <label>
+      <input type="radio" name="gender" value="male">
+      Male
+    </label>
+
+    <label>
+      <input type="radio" name="gender" value="female">
+      Female
+    </label>
+  </div>
 					<label for="email">Email</label>
-					<input name="email" type="email" id="email"><br><br>
+					<input name="email" type="email" id="email" required> 
 					<label for="password">Password</label>
-					<input name="password" type="password" id="password"><br><br>
+					<input name="password" type="password" id="password" required> 
 					
 					
 					<button type="submit">Submit</button>
@@ -44,4 +51,4 @@
 				</section>
 					
 		</body>
-		</html>
+ 
