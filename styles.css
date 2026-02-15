@@ -171,4 +171,45 @@ footer{
 #signup form  button:hover{
 	color:#8188cf;
 		text-shadow: 0 0 10px #8188cf;
+} 
+
+
+#contact{
+	display: flex;
+   flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	max-width:350px;
+	min-height:300px;
+	padding:10px
 }
+#contact form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap:5px;
+	
+}
+#contact form input
+ {
+	padding:10px 30px;
+	border-radius: 4px;
+	
+ }
+#contact form  button{
+	margin-top: 9px;
+	max-width: 100px;
+	padding:8px  ;
+	border-radius: 4px;
+	 align-self: center;
+	 background-color: #576A8F;
+	 color:white;
+	 
+}
+
+#contact form  button:hover{
+	color:#8188cf;
+		text-shadow: 0 0 10px #8188cf;
+} 
