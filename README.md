@@ -1,7 +1,7 @@
 # 📝 Noted
 
 A clean, lightweight web application for reading and sharing short-form notes and essays. Built with plain HTML, CSS, and no dependencies.
-
+🌐 Live Demo: ayushvaish234.github.io/Noted
 ---
 
 ## 📌 Overview
@@ -97,8 +97,8 @@ Or simply double-click `index.html` in your file explorer.
 | No JavaScript | Fully static, no JS dependencies |
 
 ---
-
  
+---
 
 ## 📄 License
 
